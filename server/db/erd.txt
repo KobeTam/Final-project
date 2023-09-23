@@ -1,0 +1,184 @@
+# Visualize on https://erd.surge.sh
+# or https://quick-erd.surge.sh
+#
+# Relationship Types
+#  -    - one to one
+#  -<   - one to many
+#  >-   - many to one
+#  >-<  - many to many
+#  -0   - one to zero or one
+#  0-   - zero or one to one
+#  0-0  - zero or one to zero or one
+#  -0<  - one to zero or many
+#  >0-  - zero or many to one
+#
+////////////////////////////////////
+
+
+users
+-----
+id integer PK
+password varchar(64)
+email varchar(64) unique
+nickname varchar(64)
+created_at timestamp
+
+
+languages
+---------
+id integer PK
+name varchar(32)
+
+
+module_groups
+-------------
+id integer PK
+module_id integer FK >0< modules.id
+group_id integer FK >0- groups.id
+
+
+groups
+------
+id integer PK
+group_id integer
+name varchar(64)
+language_id integer FK >0- languages.id
+
+
+functions
+---------
+id integer PK
+name varchar(64)
+
+
+display_settings
+----------------
+id integer PK
+seq_group integer
+group_id integer FK -0- groups.id
+seq_module integer
+module_id integer FK -0- modules.id
+
+
+modules
+-------
+id integer PK
+title varchar(64)
+description text
+function_id integer FK -0- functions.id
+prompt_id integer FK -0- prompts.id
+language_id integer FK >0- languages.id
+
+
+module_labels
+------------
+id integer PK
+module_id integer FK >0< modules.id
+label_id integer FK >0- labels.id
+
+
+labels
+------
+id integer PK
+name varchar(64)
+seq integer
+language_id integer FK >0- languages.id
+
+
+questions
+---------
+id integer PK
+user_id integer FK >0- users.id
+content text
+created_at timestamp
+token_used integer
+
+
+answers
+-------
+id integer PK
+content text
+question_id integer FK -0- questions.id
+created_at timestamp
+token_used integer
+
+
+files
+-----
+id integer PK
+filename varchar(64)
+filetype varchar(16)
+question_id integer FK >0- questions.id
+
+
+prompts
+-------
+id integer PK
+seq integer
+role varchar(16)
+content text
+language_id integer FK >0- languages.id
+
+
+transactions
+------------
+id integer PK
+user_id integer FK >0- users.id
+opening_bal integer
+change integer
+ending_bal integer
+created_at timestamp
+
+
+question_tags
+-------------
+id integer PK
+question_id integer FK >0- questions.id
+tag_id integer FK >0- tags.id
+
+
+tags
+----
+id integer PK
+name varchar(32) unique
+
+
+question_signs
+--------------
+id integer PK
+question_id integer FK >0- questions.id
+sign_id integer FK >0- signs.id
+
+
+signs
+-----
+id integer PK
+name varchar(32) unique
+
+
+# zoom: 0.778
+# view: (-41, 16)
+# text-bg: #235bec
+# text-color: #000000
+# diagram-bg: #ffffff
+# diagram-text: #707070
+# table-bg: #ffffff
+# table-text: #000000
+# users (815, 210)
+# languages (618, 752)
+# module_groups (608, 358)
+# groups (339, 609)
+# functions (859, 611)
+# display_settings (604, 465)
+# modules (813, 407)
+# labels (821, 715)
+# questions (597, 205)
+# answers (350, 208)
+# files (815, 62)
+# prompts (573, 608)
+# transactions (1042, 210)
+# question_tags (603, 13)
+# tags (603, 119)
+# question_signs (352, 14)
+# signs (352, 119)
+# module_labels (1072, 601)

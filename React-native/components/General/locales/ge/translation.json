@@ -1,0 +1,93 @@
+{
+    "content": {
+      
+      "Home": "Startseite",
+      "ImagePick": "Aus Ordner auswählen",
+      "TextBarGPT": "Frage vorschlagen",
+      "Summaries": "Zusammenfassungen",
+      "TravelTips":"Reisetipps",
+      "Content": "Inhalt",
+
+      "Heading1": "Vorschläge",
+      "Heading2": "Technischer Support",
+      "Heading3": "Persönliche Vorschläge",
+      "Heading4": "Empfehlungen für Unterhaltung",
+      "Heading5": "Spaßige Fragen",
+      "Heading6": "Was bevorzugst du?",
+      
+      "Image1": "Bild",
+      "Image2": "Textzusamm aus Foto",
+      "Text1": "Text",
+      "Text2": "Dokumentzusammenfassung",
+      "Travel": "Reisen",
+      "Trave2": "Reiseplanungsvorschläge",
+      "Answer1": "Antwort",
+      "Answer2": "Fragen und Antworten scannen",
+      
+      "TextBar1": "Wie kann man eine dem Computer reparieren?",
+      "TextBar2": "Wie stellt man gelöschte Dateien aus her?",
+      "TextBar3": "Wie behebt man ein eingefrorenes Smartphone?",
+      "Emoji1": "🐌",
+      "Emoji2": "🚮",
+      "Emoji3": "📱",
+      
+      "TextBar4": "Wie kann man Zeitmanagementfähigkeiten verbessern?",
+      "TextBar5": "Was ist die Strategie zur Lösung von emotionalen?",
+      "TextBar6": "Wie erreicht man eine Work-Life-Balance?",
+      "Emoji4": "⌛",
+      "Emoji5": "💞",
+      "Emoji6": "⚖️",
+      
+      "TextBar7": "Welche spannenden Thriller-Filme sollten angesehen ?",
+      "TextBar8": "Welche beliebten Fantasy-Romane mit starken es?",
+      "Emoji7": "😱",
+      "Emoji8": "👧",
+      
+      "TextBar9": "Wähle eine nutzlose Superkraft",
+      "TextBar10": "Welches Tier das interessanteste Gesprächspartner?",
+      "Emoji9": "🦸",
+      "Emoji10": "🐉",
+      
+      "TextBar11": "Die Fähigkeit zu fliegen oder unsichtbar zu werden?",
+      "TextBar12": "Berühmte Persönlichkeit oder weltbester Koch werden?",
+      "Emoji11": "🛸",
+      "Emoji12": "🧑‍🍳",
+      
+      "BubbleList1": "Programmierung",
+      "BubbleList2": "Spiele",
+      "BubbleList3": "Stil",
+      "BubbleList4": "Basketball",
+      "BubbleList5": "Sport",
+      "BubbleList6": "Lernen",
+      "BubbleList7": "Soziales",
+      "BubbleList8": "Spielzeug",
+      
+      "Chat": "Chat",
+      "ChatRecord": "Chatverlauf",
+      
+      "History": "Verlauf",
+      
+      "setting": "Einstellungen",
+      "welcome" : "Hallo",
+      "colorMode":"Dunkler/heller Modus",
+      "changeLng" : "Bevorzugte Sprache:",
+      "Logout" : "Abmelden",
+      "DeleteAC": "Konto löschen",
+      
+      "Name": "Chat Überprüfen Verfolgen",
+      "signIn": "Anmelden",
+      "New" : "Ich bin ein neuer Benutzer",
+      "SignUp" : "Registrieren",
+      "Forgot" : "Passwort vergessen?",
+      "Password" : "Passwort",
+      "Email" : "E-Mail",
+      "Nickname" : "Spitzname",
+      "Welcome": "Willkommen",
+      "continue" : "Weiter zur Registrierung!",
+      "Create" : "Konto erstellen",
+    "Toast": "Willkommen in"
+
+      
+    }
+  }
+

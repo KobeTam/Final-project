@@ -1,0 +1,94 @@
+{
+  "content": {
+    
+    "Home": "Inicio",
+    "ImagePick": "Seleccionar desde la carpeta",
+    "TextBarGPT": "Sugerir pregunta",
+    "Summaries": "Resúmenes",
+    "TravelTips":"Consejos de viaje",
+    "Content": "Contenido",
+
+    "Heading1": "Sugerencias",
+    "Heading2": "Soporte técnico",
+    "Heading3": "Sugerencias personales",
+    "Heading4": "Recomendaciones de entretenimiento",
+    "Heading5": "Preguntas divertidas",
+    "Heading6": "¿Qué prefieres?",
+    
+    "Image1": "Imagen",
+    "Image2": "Resumen de texto de la foto",
+    "Text1": "Texto",
+    "Text2": "Resumen del documento",
+    "Travel": "Viajes",
+    "Trave2": "Sugerencias de itinerario de viaje",
+    "Answer1": "Respuesta",
+    "Answer2": "Escanear preguntas y",
+    
+    "TextBar1": "¿Cómo solucionar una Internet en una computadora?",
+    "TextBar2": "¿Cómo recuperar archivos eliminados de reciclaje?",
+    "TextBar3": "¿Cómo solucionar un teléfono inteligente congelado?",
+    "Emoji1": "🐌",
+    "Emoji2": "🚮",
+    "Emoji3": "📱",
+    
+    "TextBar4": "¿Cómo  la habilidad de administrar el tiempo?",
+    "TextBar5": "¿Cuál es la estrategia para  conflictos emocionales?",
+    "TextBar6": "¿Cómo mantener el equilibrio  el trabajo y la vida?",
+    "Emoji4": "⌛",
+    "Emoji5": "💞",
+    "Emoji6": "⚖️",
+    
+    "TextBar7": "¿Cuáles son algunas películas pena ver?",
+    "TextBar8": "¿Cuáles son  novelas de protagonistas  fuertes?",
+    "Emoji7": "😱",
+    "Emoji8": "👧",
+    
+    "TextBar9": "Elige un superpoder inútil",
+    "TextBar10": "¿Qué animal el de conversación  interesante?",
+    "Emoji9": "🦸",
+    "Emoji10": "🐉",
+    
+    "TextBar11": "¿Tener la capacidad de volverse invisible?",
+    "TextBar12": "¿Ser una celebridad famosa o el chef del mundo?",
+    "Emoji11": "🛸",
+    "Emoji12": "🧑‍🍳",
+    
+    "BubbleList1": "Programación",
+    "BubbleList2": "Juegos",
+    "BubbleList3": "Estilo",
+    "BubbleList4": "Baloncesto",
+    "BubbleList5": "Deportes",
+    "BubbleList6": "Aprendizaje",
+    "BubbleList7": "Social",
+    "BubbleList8": "Juguetes",
+    
+    "Chat": "Chat",
+    "ChatRecord": "Historial de chat",
+    
+    "History": "Historial",
+    
+    "setting": "Configuración",
+    "welcome" : "Hola",
+    "colorMode":"Modo oscuro/claro",
+    "changeLng" : "Idioma preferido:",
+    "Logout" : "Cerrar sesión",
+    "DeleteAC": "Eliminar cuenta",
+    
+    "Name": "Chat Verificar Rastrear",
+    "signIn": "Iniciar sesión",
+    "New" : "Soy un nuevo usuario",
+    "SignUp" : "Registrarse",
+    "Forgot" : "¿Olvidaste tu contraseña?",
+    "Password" : "Contraseña",
+    "Email" : "Correo electrónico",
+    "Nickname" : "Apodo",
+    "Welcome": "Bienvenido",
+    "continue" : "Continuar para registrarte!",
+    "Create" : "Crear tu cuenta",
+    "Toast": "Bienvenido a"
+
+    
+
+  }
+}
+

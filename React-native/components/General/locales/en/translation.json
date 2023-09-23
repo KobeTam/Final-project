@@ -1,0 +1,91 @@
+{
+  "content": {
+
+    "Home": "Home",
+    "ImagePick": "Pick from folder",
+    "TextBarGPT": "Suggestion Question",
+    "Summaries": "Summaries",
+    "TravelTips":"Travel Tips",
+    "Content": "Content",
+
+
+    "Heading1": "Suggested",
+    "Heading2": "Technical Support",
+    "Heading3": "Personal Advice",
+    "Heading4": "Entertainment Recommendations",
+    "Heading5": "Silly Questions",
+    "Heading6": "Would You Rather",
+
+    "Image1": "Image",
+    "Image2": "Summarize text from photos",
+    "Text1": "Text",
+    "Text2": "Document to Summary",
+    "Travel": "Travel",
+    "Trave2": "Travel Itinerary Suggestion",
+    "Answer1": "Answer",
+    "Answer2": "Scan question and answer", 
+
+    "TextBar1": "Fixing slow internet connection on computer?",
+    "TextBar2": "Recovering deleted file from recycle bin?",
+    "TextBar3": "Fixing frozen smartphone?",
+    "Emoji1": "🐌",
+    "Emoji2": "🚮",
+    "Emoji3": "📱",
+
+    "TextBar4": "How to improve time management skills?",
+    "TextBar5": "Strategies for resolving relationship conflicts?",
+    "TextBar6": "Maintaining work-life balance tips?",
+    "Emoji4": "⌛",
+    "Emoji5": "💞",
+    "Emoji6": "⚖️",
+
+    "TextBar7": "Must-watch suspense thriller movies?",
+    "TextBar8": "Popular fantasy novels with strong heroines?",
+    "Emoji7": "😱",
+    "Emoji8": "👧",
+
+    "TextBar9": "Choose a completely useless superpower",
+    "TextBar10": "Funniest animal to talk to?",
+    "Emoji9": "🦸",
+    "Emoji10": "🐉",
+
+    "TextBar11": "Would you rather fly or be invisible?",
+    "TextBar12": "Would you rather celebrity or best chef?",
+    "Emoji11": "🛸",
+    "Emoji12": "🧑‍🍳",
+
+    "BubbleList1": "Coding",
+    "BubbleList2": "Game",
+    "BubbleList3": "Style",
+    "BubbleList4": "Basketball",
+    "BubbleList5": "Sport",
+    "BubbleList6": "Study",
+    "BubbleList7": "Social",
+    "BubbleList8": "Toys",
+
+    "Chat": "Chat",
+    "ChatRecord": "Chat Record ",
+
+    "History": "History",
+
+    "setting": "Setting",
+    "welcome" : "Hello",
+    "colorMode":"Dark/Light",
+    "changeLng" : "Preferred languages:",
+    "Logout" : "Log out",
+    "DeleteAC": "Delete Account",
+
+    "Name": "Chat Check Track",
+    "signIn": "Sign In",
+    "New" : "I'm a new user",
+    "SignUp" : "Sign Up",
+    "Forgot" : "Forgot Password?",
+    "Password" : "Password",
+    "Email" : "Email",
+    "Nickname" : "Nickname",
+    "Welcome": "Welcome",
+    "continue" : "Sign up to continue!",
+    "Create" : "Create Your Account",
+    "Toast": "Welcome to"
+  }
+}

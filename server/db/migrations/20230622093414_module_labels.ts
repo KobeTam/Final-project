@@ -1,0 +1,15 @@
+import { Knex } from "knex";
+
+export async function up(knex: Knex): Promise<void> {
+  await knex.schema.createTable("module_labels", (table) => {
+    table.increments();
+    table.string("name", 64);
+    table.integer("seq");
+    table.integer("language_id").unsigned();
+    table.foreign("language_id").references("languages.id");
+  });
+}
+
+export async function down(knex: Knex): Promise<void> {
+  await knex.schema.dropTable("module_labels");
+}

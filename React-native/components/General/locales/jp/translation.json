@@ -1,0 +1,92 @@
+{
+    "content": {
+      
+        "Home": "ホーム",
+        "ImagePick": "フォルダから選択",
+        "TextBarGPT": "質問を提案",
+        "Summaries": "要約",
+        "TravelTips": "旅行のヒント",
+        "Content": "コンテンツ",
+        
+        "Heading1": "アドバイス",
+        "Heading2": "技術サポート",
+        "Heading3": "個人の提案",
+        "Heading4": "エンターテイメントのおすすめ",
+        "Heading5": "おバカな質問",
+        "Heading6": "どちらを選びますか",
+        
+        "Image1": "画像",
+        "Image2": "写真からテキストを要約",
+        "Text1": "テキスト",
+        "Text2": "ドキュメントを要約",
+        "Travel": "旅行",
+        "Trave2": "旅行のスケジュールの提案",
+        "Answer1": "回答",
+        "Answer2": "質問と回答をスキャン",
+        
+        "TextBar1": "遅いネットワーク接続の修復方法",
+        "TextBar2": "ゴミ箱から削除したファイルの復元方法",
+        "TextBar3": "フリーズしたスマートフォンの修復方法",
+        "Emoji1": "🐌",
+        "Emoji2": "🚮",
+        "Emoji3": "📱",
+        
+        "TextBar4": "時間管理能力の向上方法",
+        "TextBar5": "感情の衝突を解決する戦略",
+        "TextBar6": "仕事と生活のバランスを保つ方法",
+        "Emoji4": "⌛",
+        "Emoji5": "💞",
+        "Emoji6": "⚖️",
+        
+        "TextBar7": "おすすめのサスペンススリラー映画はあす",
+        "TextBar8": "強力主人公を持つ人気のファありますか",
+        "Emoji7": "😱",
+        "Emoji8": "👧",
+        
+        "TextBar9": "役に立たない超能力を選ぶ",
+        "TextBar10": "おもしろい会話相手としての動物はすか",
+        "Emoji9": "🦸",
+        "Emoji10": "🐉",
+        
+        "TextBar11": "飛ぶ能力と透明化能力、どを選びか",
+        "TextBar12": "有名なセレブリティと世界最高",
+        "Emoji11": "🛸",
+        "Emoji12": "🧑‍🍳",
+        
+        "BubbleList1": "プログラミング",
+        "BubbleList2": "ゲーム",
+        "BubbleList3": "スタイル",
+        "BubbleList4": "バスケットボール",
+        "BubbleList5": "スポーツ",
+        "BubbleList6": "学習",
+        "BubbleList7": "ソーシャル",
+        "BubbleList8": "おもちゃ",
+        
+        "Chat": "チャットルーム",
+        "ChatRecord": "チャット履歴",
+        
+        "History": "履歴",
+        
+        "setting": "設定",
+        "welcome": "ようこそ",
+        "colorMode": "ダークモード/ライトモード",
+        "changeLng": "優先言語:",
+        "Logout": "ログアウト",
+        "DeleteAC": "アカウントを削除する",
+
+        "Name": "チャット チェック トラック",
+"signIn": "サインイン",
+"New": "新規ユーザーです",
+"SignUp": "サインアップ",
+"Forgot": "パスワードを忘れましたか？",
+"Password": "パスワード",
+"Email": "メールアドレス",
+"Nickname": "ニックネーム",
+"Welcome": "ようこそ",
+"continue": "続けるためにサインアップしてください！",
+"Create": "アカウントを作成する",
+"Toast": "へようこそ"
+
+    }
+  }
+

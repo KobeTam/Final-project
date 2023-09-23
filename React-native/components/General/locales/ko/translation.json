@@ -1,0 +1,94 @@
+{
+  "content": {
+    
+    "Home": "홈",
+    "ImagePick": "폴더에서 선택",
+    "TextBarGPT": "질문 제안",
+    "Summaries": "요약",
+    "TravelTips":"여행 팁",
+    "Content": "컨텐츠",
+
+    "Heading1": "제안",
+    "Heading2": "기술 지원",
+    "Heading3": "개인 제안",
+    "Heading4": "엔터테인먼트 추천",
+    "Heading5": "우스꽝스러운 질문",
+    "Heading6": "당신은 무엇을 좋아하시나요",
+    
+    "Image1": "이미지",
+    "Image2": "사진에서 텍스트 요약",
+    "Text1": "텍스트",
+    "Text2": "문서 요약",
+    "Travel": "여행",
+    "Trave2": "여행 일정 제안",
+    "Answer1": "답변",
+    "Answer2": "질문과 답변 스캔",
+    
+    "TextBar1": "컴퓨터에서 느린 네트워크 연결을 무엇인가요?",
+    "TextBar2": "휴지통에서 삭제한 파일을 복구하는 무엇인가요?",
+    "TextBar3": "먹통된 스마트폰을 고치는 방법은 무엇인가요?",
+    "Emoji1": "🐌",
+    "Emoji2": "🚮",
+    "Emoji3": "📱",
+    
+    "TextBar4": "시간 관리 능력을 향상시키는 방법은 무엇인가요?",
+    "TextBar5": "감정 충돌을 해결하는 전략은 무엇인가요?",
+    "TextBar6": "일과 삶의 균형을 유지하는 방법은 무엇인가요?",
+    "Emoji4": "⌛",
+    "Emoji5": "💞",
+    "Emoji6": "⚖️",
+    
+    "TextBar7": "꼭 봐야 할 스릴러 영화는 어떤 것이 있나요?",
+    "TextBar8": "강력한 여성 주인공이 등장하는 환상 소설은 ?",
+    "Emoji7": "😱",
+    "Emoji8": "👧",
+    
+    "TextBar9": "쓸모없는 초능력을 선택한다면 선택하시겠어요?",
+    "TextBar10": "가장 재미있는 상대가 될 동물은 무엇일까요?",
+    "Emoji9": "🦸",
+    "Emoji10": "🐉",
+    
+    "TextBar11": "비행 능력을 가지는 것과 은신 능력을 ?",
+    "TextBar12": "유명 인물이 되는 것과 세계에서 가장 ?",
+    "Emoji11": "🛸",
+    "Emoji12": "🧑‍🍳",
+    
+    "BubbleList1": "프로그래밍",
+    "BubbleList2": "게임",
+    "BubbleList3": "스타일",
+    "BubbleList4": "농구",
+    "BubbleList5": "운동",
+    "BubbleList6": "학습",
+    "BubbleList7": "소셜",
+    "BubbleList8": "장난감",
+    
+    "Chat": "채팅방",
+    "ChatRecord": "채팅 기록",
+    
+    "History": "기록",
+    
+    "setting": "설정",
+    "welcome" : "안녕하세요",
+    "colorMode":"어두운 모드 / 밝은 모드",
+    "changeLng" : "기본 언어 선택:",
+    "Logout" : "로그아웃",
+    "DeleteAC": "계정 삭제",
+    
+    "Name": "채팅 확인 추적",
+    "signIn": "로그인",
+    "New" : "새로운 사용자입니다",
+    "SignUp" : "회원 가입",
+    "Forgot" : "비밀번호를 잊으셨나요?",
+    "Password" : "비밀번호",
+    "Email" : "이메일",
+    "Nickname" : "닉네임",
+    "Welcome": "환영합니다",
+    "continue" : "계속 진행하세요!",
+    "Create" : "계정 생성하기",
+    "Toast": "에 오신 것을 환영합니다"
+
+    
+
+  }
+}
+

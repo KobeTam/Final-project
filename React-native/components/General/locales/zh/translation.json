@@ -1,0 +1,93 @@
+{
+    "content": {
+      
+    "Home": "首頁",
+    "ImagePick": "從資料夾中選擇",
+    "TextBarGPT": "建議問題",
+    "Summaries": "摘要",
+    "TravelTips":"旅遊貼士",
+    "Content": "內容",
+
+    "Heading1": "建議",
+    "Heading2": "技術支援",
+    "Heading3": "個人建議",
+    "Heading4": "娛樂推薦",
+    "Heading5": "蠢萌問題",
+    "Heading6": "你更願意",
+
+    "Image1": "圖片",
+    "Image2": "從照片摘要文字",
+    "Text1": "文字",
+    "Text2": "文件摘要",
+    "Travel": "旅行",
+    "Trave2": "旅行行程建議",
+    "Answer1": "答案",
+    "Answer2": "掃描問題和答案",
+
+    "TextBar1": "如何修復電腦上緩慢的網絡連接？",
+    "TextBar2": "如何從回收筒中恢復已刪除的文件？",
+    "TextBar3": "如何修復凍結的智能手機？",
+    "Emoji1": "🐌",
+    "Emoji2": "🚮",
+    "Emoji3": "📱",
+
+    "TextBar4": "如何提升時間管理能力？",
+    "TextBar5": "解決感情衝突的策略是什麼？",
+    "TextBar6": "如何保持工作與生活的平衡？",
+    "Emoji4": "⌛",
+    "Emoji5": "💞",
+    "Emoji6": "⚖️",
+
+    "TextBar7": "必看的懸疑驚悚電影有哪些？",
+    "TextBar8": "具有強大女主角的熱門奇幻小說有哪些？",
+    "Emoji7": "😱",
+    "Emoji8": "👧",
+
+    "TextBar9": "選擇一種沒有用處超能力",
+    "TextBar10": "哪一種動物會是最有趣的對話對象？",
+    "Emoji9": "🦸",
+    "Emoji10": "🐉",
+
+    "TextBar11": "擁有飛行的能力還是隱形的能力？",
+    "TextBar12": "成為一個著名的名人還是世界上最好的廚師？",
+    "Emoji11": "🛸",
+    "Emoji12": "🧑‍🍳",
+
+    "BubbleList1": "編程",
+    "BubbleList2": "遊戲",
+    "BubbleList3": "風格",
+    "BubbleList4": "籃球",
+    "BubbleList5": "運動",
+    "BubbleList6": "學習",
+    "BubbleList7": "社交",
+    "BubbleList8": "玩具",
+
+    "Chat": "聊天室",
+    "ChatRecord": "聊天記錄",
+
+    "History": "歷史記錄",
+
+    "setting": "設定",
+    "welcome" : "你好",
+    "colorMode":"深色/淺色",
+    "changeLng" : "首選語言:",
+    "Logout" : "登出",
+    "DeleteAC": "刪除帳戶",
+
+    "Name": "聊天 檢查 追蹤",
+    "signIn": "登入",
+    "New" : "我是新用戶",
+    "SignUp" : "註冊",
+    "Forgot" : "忘記密碼？",
+    "Password" : "密碼",
+    "Email" : "郵件",
+    "Nickname" : "暱稱",
+    "Welcome": "歡迎",
+    "continue" : "註冊以繼續！",
+    "Create" : "建立您的帳戶",
+    "Toast": "歡迎來到"
+
+  
+    }
+  }
+

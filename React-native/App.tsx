@@ -4,7 +4,7 @@ import { NativeBaseProvider, extendTheme, theme, useColorMode } from 'native-bas
 import { store } from "./store/store";
 
 import { Provider } from "react-redux";
-import AppStack from "./pages/screens/StackScreen/AppStack/AppStack";
+import AppStack from "./pages/screens/StackScreen/AppStack/AppStack1";
 // import AppStack from "./pages/screens/StackScreen/AuthPage/AppStack";
 import { API_URL } from "@env"
 import "./components/General/i18n"

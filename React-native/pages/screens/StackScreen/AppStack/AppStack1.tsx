@@ -133,27 +133,27 @@ export default function AppStack() {
   const theme = useThemeStore((state) => state.theme);
   const dispatch = useDispatch();
   // const navigation = useNavigation();
-  // const isAuthenticated = useSelector((state: IRootState) => state.auth.isAuthenticated);
+  const isAuthenticated = useSelector((state: IRootState) => state.auth.isAuthenticated);
 
-  // useEffect(() => {
-  //   (async () => {
-  //     try {
-  //       let token = await AsyncStorage.getItem("token");
-  //       if (token) {
-  //         const data: any = jwt_decode(token)
-  //         console.log("data", data);
+  useEffect(() => {
+    (async () => {
+      try {
+        let token = await AsyncStorage.getItem("token");
+        if (token) {
+          const data: any = jwt_decode(token)
+          console.log("data", data);
 
-  //         dispatch(login({ userId: data.userId, nickname: data.nickname }));
+          dispatch(login({ userId: data.userId, nickname: data.nickname }));
 
 
-  //         // setTimeout(() => navigation.navigate("HomeScreen"), 200)
+          // setTimeout(() => navigation.navigate("HomeScreen"), 200)
 
-  //       }
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   })()
-  // }, [])
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    })()
+  }, [])
 
 
   const { t, i18n } = useTranslation();
@@ -179,46 +179,46 @@ export default function AppStack() {
               tabBarItemStyle: { display: 'none', },
             }} />
 
-            {/* {isAuthenticated && ( */}
-            <>
-              <Tab.Screen name="HomeScreen" component={HomeStack} options={{
-                tabBarLabel: `${t("content.Home")}`,
-                tabBarIcon: ({ color }) => (
-                  <Ionicons name="chatbubble-ellipses-outline" color={color} size={25} />
-                ),
-              }} />
+            {isAuthenticated && (
+              <>
+                <Tab.Screen name="HomeScreen" component={HomeStack} options={{
+                  tabBarLabel: `${t("content.Home")}`,
+                  tabBarIcon: ({ color }) => (
+                    <Ionicons name="chatbubble-ellipses-outline" color={color} size={25} />
+                  ),
+                }} />
 
-              <Tab.Screen name="Chats" component={ChatsStack} options={{
-                // tabBarBadge: 20,
+                <Tab.Screen name="Chats" component={ChatsStack} options={{
+                  // tabBarBadge: 20,
 
-                tabBarLabel: `${t("content.Chat")}`,
-                tabBarIcon: ({ color }) => (
-                  <Ionicons name="ios-newspaper-outline" color={color} size={25} />
-                ), tabBarBadgeStyle: {
-                  backgroundColor: 'red',  //Change the background color here
-                  color: 'white', //Change the color here
-                },
-              }} />
-              <Tab.Screen name="History" component={HistoryStack} options={{
-                tabBarLabel: `${t("content.History")}`,
-                tabBarIcon: ({ color }) => (
-                  <MaterialIcons name="history" color={color} size={25} />
-                ),
-              }} />
-              <Tab.Screen name="SettingScreen" component={SettingStack} options={{
-                tabBarLabel: `${t("content.setting")}`,
-                tabBarIcon: ({ color }) => (
-                  <MaterialIcons name="build" color={color} size={25} />
-                ),
-              }} />
-              {/* <Tab.Screen name="TestScreen" component={TestScreen} options={{
+                  tabBarLabel: `${t("content.Chat")}`,
+                  tabBarIcon: ({ color }) => (
+                    <Ionicons name="ios-newspaper-outline" color={color} size={25} />
+                  ), tabBarBadgeStyle: {
+                    backgroundColor: 'red',  //Change the background color here
+                    color: 'white', //Change the color here
+                  },
+                }} />
+                <Tab.Screen name="History" component={HistoryStack} options={{
+                  tabBarLabel: `${t("content.History")}`,
+                  tabBarIcon: ({ color }) => (
+                    <MaterialIcons name="history" color={color} size={25} />
+                  ),
+                }} />
+                <Tab.Screen name="SettingScreen" component={SettingStack} options={{
+                  tabBarLabel: `${t("content.setting")}`,
+                  tabBarIcon: ({ color }) => (
+                    <MaterialIcons name="build" color={color} size={25} />
+                  ),
+                }} />
+                {/* <Tab.Screen name="TestScreen" component={TestScreen} options={{
                   tabBarLabel: 'TestScreen',
                   tabBarIcon: ({ color }) => (
                     <MaterialIcons name="build" color={color} size={25} />
                   ),
                 }} /> */}
-            </>
-            {/* )} */}
+              </>
+            )}
 
 
 
